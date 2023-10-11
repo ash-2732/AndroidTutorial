@@ -9,15 +9,24 @@
 
 
     <LinearLayout
+        android:gravity="center"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <com.google.android.exoplayer2.ui.StyledPlayerView
-            android:id="@+id/playerView"
+        <EditText
+            android:textColor="@color/black"
+            android:id="@+id/takeLink"
+            android:layout_margin="20dp"
             android:layout_width="match_parent"
-            android:layout_height="300sp">
+            android:layout_height="wrap_content"/>
 
-        </com.google.android.exoplayer2.ui.StyledPlayerView>
+        <Button
+            android:id="@+id/startVideo"
+            android:layout_margin="20dp"
+            android:text="Start Video"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"/>
     </LinearLayout>
 
 
